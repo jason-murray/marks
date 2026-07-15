@@ -5,6 +5,9 @@ plays **audio cues** at those points while you race - a personal co-driver
 for track/car combos you're still learning, for endurance stints, and for
 fuel saving.
 
+Works with iRacing, Le Mans Ultimate, Assetto Corsa, AC EVO, ACC and every
+other sim SimHub supports.
+
 **[⬇ Download the installer](https://github.com/jason-murray/marks/releases/latest/download/MarksSetup.msi)** · [All releases](https://github.com/jason-murray/marks/releases) · [Website](https://jason-murray.github.io/marks/)
 
 ## Features
@@ -19,11 +22,14 @@ fuel saving.
   toward a strike line, plus a brake bar with the target pressure to match.
 - **Per-marker control** - enable, lock, rename, nudge in meters; per-type
   sounds or your own audio files.
-- **Stint adjustments** - markers migrate with tyre wear, fuel burn-off and
-  cold tyres after a stop.
+- **Profiles per game/track/car**, with copying between cars and layouts.
+
+## Coming soon
+
+- **Stint adjustments** - markers that migrate with tyre wear, fuel burn-off
+  and cold tyres after a stop.
 - **Fuel saving** - one toggle injects lift-and-coast cues and moves brake
   markers later.
-- **Profiles per game/track/car**, with copying between cars and layouts.
 
 ## Install
 
@@ -37,6 +43,15 @@ Updates are built in: the plugin checks for new versions and installs them
 next time SimHub closes.
 
 Requires [SimHub](https://www.simhubdash.com/) on Windows.
+
+## Advanced: use with SimHub replay
+
+Marks works with SimHub's data record / replay: record a session while
+driving, then replay it with no sim running - learning builds markers from
+your fastest recorded lap and cues fire exactly as on track, so you can tune
+sounds, count-in and lead time from your desk. During a replay the brake
+channel comes from the recording, so use the TAP button (not the pedal) if
+you run reaction-time calibration.
 
 ## License
 

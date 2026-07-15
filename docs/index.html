@@ -42,6 +42,7 @@
   .cta:hover { filter: brightness(1.1); }
   .cta-sub { display: block; margin-top: 12px; color: var(--dim); font-size: 0.85rem; }
   .cta-sub a { color: var(--dim); }
+  .games { color: var(--dim); font-size: 0.9rem; margin-top: 28px; }
   section { padding: 48px 0; }
   h2 { font-size: 1.4rem; margin-bottom: 24px; color: var(--accent); }
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
@@ -67,6 +68,7 @@
     <p class="tagline">Audio braking markers for SimHub - a personal co-driver that learns from your fastest lap.</p>
     <a class="cta" href="https://github.com/jason-murray/marks/releases/latest/download/MarksSetup.msi">Download for Windows</a>
     <span class="cta-sub">Requires <a href="https://www.simhubdash.com/">SimHub</a> · <a href="https://github.com/jason-murray/marks/releases">all releases</a></span>
+    <p class="games">Works with iRacing, Le Mans Ultimate, Assetto Corsa, AC EVO, ACC and every other sim SimHub supports.</p>
   </header>
 
   <section class="wrap">
@@ -85,8 +87,8 @@
         <p>A bundled dash shows upcoming markers sliding toward a strike line, with a brake bar showing the exact pressure to match.</p>
       </div>
       <div class="card">
-        <h3>Race-day aware</h3>
-        <p>Markers migrate with tyre wear, fuel burn-off and cold tyres after a stop. One toggle switches the whole lap into lift-and-coast fuel saving.</p>
+        <h3>Yours to tune</h3>
+        <p>Enable, lock, rename or nudge every marker in meters; pick per-type sounds or your own audio files.</p>
       </div>
     </div>
   </section>
@@ -98,6 +100,33 @@
       <li>Start SimHub and enable the <strong>Marks</strong> plugin when prompted.</li>
       <li>Drive laps with <strong>Learning</strong> on, then switch on <strong>Play cues</strong> and follow the tones.</li>
     </ol>
+  </section>
+
+  <section class="wrap">
+    <h2>Advanced: tune from your desk</h2>
+    <p style="max-width: 640px; color: var(--dim);">
+      Marks works with SimHub's data record / replay feature. Record a session
+      while you drive, then replay it later with no sim running: learning picks
+      up your fastest recorded lap to build markers, and cues fire exactly as
+      they would on track, so you can audition sounds, count-in, lead time and
+      marker tweaks from your desk. One caveat: during a replay the brake
+      channel comes from the recording, so use the on-screen TAP button rather
+      than the pedal if you calibrate reaction time while replaying.
+    </p>
+  </section>
+
+  <section class="wrap">
+    <h2>Coming soon</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Stint adjustments</h3>
+        <p>Markers that migrate through a stint: earlier with tyre wear, later as fuel burns off, extra-early on cold tyres after a stop.</p>
+      </div>
+      <div class="card">
+        <h3>Fuel saving</h3>
+        <p>One toggle switches the whole lap into lift-and-coast: a lift cue before each braking zone, brake markers trimmed later to claw the time back.</p>
+      </div>
+    </div>
   </section>
 
   <footer class="wrap">
