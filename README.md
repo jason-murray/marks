@@ -8,7 +8,7 @@ fuel saving.
 Works with iRacing, Le Mans Ultimate, Assetto Corsa, AC EVO, ACC and every
 other sim SimHub supports.
 
-**[⬇ Download the installer](https://github.com/jason-murray/marks/releases/latest/download/MarksSetup.msi)** · [All releases](https://github.com/jason-murray/marks/releases) · [Website](https://jason-murray.github.io/marks/)
+**[⬇ Download the installer](https://github.com/jason-murray/marks/releases/latest/download/MarksSetup.exe)** · [All releases](https://github.com/jason-murray/marks/releases) · [Website](https://jason-murray.github.io/marks/)
 
 ## Features
 
@@ -33,7 +33,7 @@ other sim SimHub supports.
 
 ## Install
 
-1. [Download MarksSetup.msi](https://github.com/jason-murray/marks/releases/latest/download/MarksSetup.msi)
+1. [Download MarksSetup.exe](https://github.com/jason-murray/marks/releases/latest/download/MarksSetup.exe)
    and run it (requires an internet connection - it fetches the latest plugin
    build).
 2. Start SimHub and enable the **Marks** plugin when prompted.
