@@ -37,7 +37,9 @@ other sim SimHub supports.
 1. [Download MarksSetup.exe](https://github.com/jason-murray/marks/releases/latest/download/MarksSetup.exe)
    and run it (requires an internet connection - it fetches the latest plugin
    build).
-2. Start SimHub and enable the **Marks** plugin when prompted.
+2. When SimHub launches it will ask about the new plugin - make sure to
+   **enable** it, and tick **Show in left main menu** so Marks appears in
+   the sidebar.
 3. Drive laps with **Learning** on, then switch on **Play cues**.
 
 Updates are built in: the plugin checks for new versions and installs them
