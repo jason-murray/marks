@@ -1,9 +1,10 @@
 # Marks - audio braking markers for SimHub
 
 Marks learns **braking, lift and throttle points** from your fastest lap and
-plays **audio cues** at those points while you race - a personal co-driver
-for track/car combos you're still learning, for endurance stints, and for
-fuel saving.
+plays **audio cues** at those points while you race. Unlike telemetry
+analysis tools, Marks destructures the telemetry into a set of **adjustable
+marker events** that can be changed independently - a tool for improving
+consistency.
 
 Works with iRacing, Le Mans Ultimate, Assetto Corsa, AC EVO, ACC and every
 other sim SimHub supports.

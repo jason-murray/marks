@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Marks - audio braking markers for SimHub</title>
-<meta name="description" content="Marks learns braking, lift and throttle points from your fastest lap and plays audio cues while you race. A SimHub plugin.">
+<meta name="description" content="Marks destructures your telemetry into adjustable braking, lift and throttle markers with audio cues - a SimHub plugin for improving consistency.">
 <style>
   :root {
     --bg: #14141c;
@@ -43,6 +43,10 @@
   .cta-sub { display: block; margin-top: 12px; color: var(--dim); font-size: 0.85rem; }
   .cta-sub a { color: var(--dim); }
   .games { color: var(--dim); font-size: 0.9rem; margin-top: 28px; }
+  .shot {
+    display: block; max-width: 100%; margin: 40px auto 0;
+    border-radius: 10px; border: 1px solid #2a2a36;
+  }
   section { padding: 24px 0 0; }
   h2 { font-size: 1.4rem; margin-bottom: 20px; color: var(--accent); }
   .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
@@ -66,10 +70,11 @@
 <body>
   <header class="wrap">
     <h1>MARKS<span class="dot">.</span></h1>
-    <p class="tagline">Audio braking markers for SimHub - a personal co-driver that learns from your fastest lap.</p>
+    <p class="tagline">Audio braking markers for SimHub. Marks destructures your telemetry into a set of adjustable marker events, each tuned independently - a tool for improving consistency.</p>
     <a class="cta" href="https://github.com/jason-murray/marks/releases/latest/download/MarksSetup.exe">Download for Windows</a>
     <span class="cta-sub">Requires <a href="https://www.simhubdash.com/">SimHub</a> · <a href="https://github.com/jason-murray/marks/releases">all releases</a></span>
     <p class="games">Works with iRacing, Le Mans Ultimate, Assetto Corsa, AC EVO, ACC and every other sim SimHub supports.</p>
+    <img class="shot" src="marks-ui.png" alt="The Marks plugin page in SimHub: track reference strip, learned lap conditions and the markers list" loading="lazy">
   </header>
 
   <section class="wrap">
@@ -110,9 +115,7 @@
       while you drive, then replay it later with no sim running: learning picks
       up your fastest recorded lap to build markers, and cues fire exactly as
       they would on track, so you can audition sounds, count-in, lead time and
-      marker tweaks from your desk. One caveat: during a replay the brake
-      channel comes from the recording, so use the on-screen TAP button rather
-      than the pedal if you calibrate reaction time while replaying.
+      marker tweaks from your desk.
     </p>
   </section>
 
